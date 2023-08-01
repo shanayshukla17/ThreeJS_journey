@@ -1,1 +1,27 @@
+Did you ever imagine that how these graphics and games are run on a web-browser? What is the main technology behind it? Off course it is not possible by just using HTML and CSS. In previous days we used WebGL
+for this task. WebGL(Web graphics Library) is JavaScript API which is used to render the 3-dimensional objects, 2-dimensional objects and Graphics on the Web-Browser. The WebGL API allows users to experience 
+interactive content on webpages, with GPU acceleration, without having to first download or install any plug-ins. For developers, WebGL provides low-level access to hardware with the familiar code structure of
+OpenGL ES.
 
+WebGL was created by Mozilla Organization. With all these benefits of WebGL there are some drawbacks of WebGL where Three.js comes into role. WebGL is very low level system that only draws basic objects like
+point, square and line. To do any meaningful thing with WebGL generally requires quite a bit of code and that is where Three.js comes in. 
+
+What is Three.js?
+
+Three.js is an open source JavaScript library that is used to display the graphics, 3D and 2D objects on the web browser. It uses WebGL API behind the scene.  Three.js allow you to use your GPU(Graphics
+Processing Unit) to render the Graphics and 3D objects on a canvas in the web browser. since we are using JavaScript so we can also interact with other HTML elements. Three.js was released by Ricardo Cabello
+in April 2010.
+
+Why we use Three.js?
+
+Since Three.js is open source so we can easily watch the source code and understand the functionality of the code(functions).
+When we use WebGL for Graphics then it doesn’t support most of the browser but Three.js supports most of the browsers.
+It doesn’t required any third party plugin to run the code.
+You just need to work on only one programming language JavaScript and off course HTML.
+How To Include Three.js in Your Projects?
+
+There are a lot of ways to add Three.js in projects some of them are quite simple and some of them are a little bit complex, however they all ways said that we have to include any one of these files in our project:
+
+three.js
+three.min.js
+three.module.js
